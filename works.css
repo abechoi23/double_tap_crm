@@ -1,0 +1,244 @@
+*{
+    box-sizing: border-box;
+}
+
+/* 
+*Start Global Styling
+*/
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    max-width: 100%;
+}
+
+.btn{
+    padding: 13px 22px;
+    font-size: 15px;
+    line-height: 15px;
+    font-weight: 600;
+    color: #306EFF;
+    border-radius: 14px;
+    border: 2px solid #306EFF;
+}
+
+.btn-dark{
+    background-color: #306EFF;
+    border-color: #306EFF;
+    color: #ffff;
+}
+/* 
+*End Global Styling
+*/
+
+ /* 
+ * Start Header Styling
+ */
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1277px;
+    margin: 0 auto;
+}
+
+.nav-links{
+    display: flex;
+    padding-left: 0;
+    list-style-type: none;
+    gap: 37px;
+}
+
+.nav-links a{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    color: black;
+}
+
+.nav-links .btn{
+    font-size: 13px;
+    padding: 10px 18px;
+
+}
+
+.nav-links .btn1{
+    background-color: #306EFF;
+    color: white;
+    font-weight: 800;
+}
+
+.nav-links .btn2{
+    background-color: white;
+    color: #306EFF;
+    font-weight: 800;
+}
+/* 
+ * End Header Styling
+ */
+
+ /* 
+ * Start Hero Styling
+*/
+
+.hero{
+    max-width: 100%;
+    margin: 40px auto;
+    margin-left: 80px;
+    margin-bottom: 0px;
+    padding: 0px 200px 0px 300px;
+    display: flex;
+    align-items: top;
+    gap: 0px;
+}
+
+.hero-content{
+    max-width: 100%;
+}
+
+.hero h1{
+    font-size: 65px;
+    font-weight: 600;
+    line-height: 80px;
+    color: black;
+    margin-bottom: 10px;
+    margin-top: 0px;
+}
+
+.hero p{
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 32px;
+    color: black;
+    margin-bottom: 20px;
+    margin-top: 0;
+    margin-right: 0px;
+}
+
+.hero .sub{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 32px;
+    color: grey;
+    margin: 0px 100px 20px 0px;
+}
+
+span {
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 32px;
+    color: grey;
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+
+.hero .double{
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 32px;
+    color: grey;
+    margin-bottom: 20px;
+    margin-top: 0;
+    margin-right: 0px;
+    padding-right: 0px;
+}
+
+.hero .in{
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 32px;
+    color: grey;
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+
+.hero .btn-row{
+    display: flex;
+    gap: 8px;
+    margin-bottom: 20px;
+}
+
+.hero-image{
+    max-width: 100%;
+    width: 900px;
+    margin-right: 40px;
+}
+
+.hero .free14{
+    display: flex;
+    justify-content: flex-start;
+    text-decoration: none;
+    list-style-type: none;
+    margin-right: 20px;
+    font-size: 12px;
+    color: black;
+    margin-top: 15px;
+}
+
+.hero .balls{
+    color: #306EFF;
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: 20px;
+}
+@media (max-width: 1000px) {
+    .hero{
+        flex-direction: column-reverse;
+    }
+}
+/*
+ * End Hero Styling
+*/
+
+
+/* 
+* Start Features Styling
+*/
+.linebreak{
+    margin: auto;
+    width: 900px;
+    margin-bottom: 30px;
+}
+
+.features{
+    max-width: 1281px;
+    margin: 0 auto;
+}
+
+.features-content{
+    max-width: 500px;
+    margin: 20px auto 73px;
+}
+
+.features-content h2{
+    font-size: 30px;
+    line-height: 68px;
+    font-weight: 800;
+    color: black;
+    text-align: center;
+    margin-bottom: 21px;
+}
+.features-content p{
+    font-size: 17px;
+    line-height: 27px;
+    font-weight: 600;
+    text-align: center;
+    color: black;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+@media (max-width: 400px) {
+    .features-cards{
+        display: flex;
+        flex-direction: column;
+    }
+}
+/* 
+* End Features Styling
+*/
