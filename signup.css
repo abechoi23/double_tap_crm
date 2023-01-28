@@ -1,6 +1,13 @@
 /* 
 *forms
  */
+ form {
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 300px;
+    padding: 0px;
+
+ }
 
 /* 
 *Style inputs
@@ -10,11 +17,28 @@ input[type="username"] {
     background-size: 20px;
     background-repeat: no-repeat;
     padding-left: 40px;
+    
+}
+.username {
+    padding: 5px;
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    
 }
 
 input[type="email"] {
 }
+.email {
+    padding: 5px;
+    text-align: center;
+  
+}
 
+.password {
+    padding: 5px;
+    text-align: center;
+}
 /* 
 *Style button
  */
@@ -22,14 +46,18 @@ input[type="email"] {
 button[type="sign-up"] {
     background-color: blue;
     color: white;
+       
 }
+
+
+
 
 /* 
 *Start Hero Styling
  */
 
 .hero {
-    max-width: 1265px;
+    max-width: 100%;
     margin: 33px auto 0;
     background: linear-gradient(to bottom, hsl(261, 56%, 93%) 0%, #e3f5fe 100%);
     border-radius: 25px;
@@ -44,8 +72,9 @@ button[type="sign-up"] {
     font-weight: 700;
     line-height: 63px;
     color: #101113;
-    margin-top: 0;
-    margin-bottom: 27px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
 }
 
 .hero p {
@@ -58,7 +87,7 @@ button[type="sign-up"] {
 }
 
 .hero-image img {
-    width: 600px;
+    width: 77%;
 }
 
 @media (max-width: 1000px) {
