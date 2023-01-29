@@ -11,13 +11,27 @@ body {
 
 .card-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "card1 . card2"
+    "card3 . card4";
     justify-items: center;
     margin: 30px;
-    padding-bottom: 15rem;
+    padding-bottom: 16rem;
 }
 
+.item1 {
+    grid-area: "card1";
+}
+.item2 {
+    grid-area: "card2";
+}
+.item3 {
+    grid-area: "card3";
+}
+.item4 {
+    grid-area: "card4";
+}
 
 .card-item {
     display: grid;
