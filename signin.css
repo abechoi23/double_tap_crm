@@ -1,9 +1,9 @@
 /* 
 *forms
  */
- form {
+form {
     text-align: center;
-    margin-top: 0px;  
+    margin-top: 0px;
 }
 
 /* 
@@ -16,58 +16,54 @@ input[type="username"] {
     background-position: 3px;
     padding-left: 40px;
     border-radius: 30px;
-    border:1px solid gray;
-    
+    border: 1px solid gray;
 }
 .username {
     padding: 5px;
     text-align: center;
     margin-bottom: 0px;
     margin-top: 0px;
-    
 }
 
 input[type="email"] {
     background-image: url(./images_signup/🦆\ icon\ _Envelope_.png);
     background-size: 18px;
-    background-repeat:no-repeat;
+    background-repeat: no-repeat;
     background-position: 5px;
     padding-left: 40px;
     border-radius: 30px;
-    border:1px solid gray
+    border: 1px solid gray;
 }
 .email {
     padding: 5px;
-    text-align: center;    
+    text-align: center;
 }
 
-
 input[type="password"] {
-    background-image:url(./images_signup/Vector.png);
+    background-image: url(./images_signup/Vector.png);
     background-size: 13px;
-    background-repeat:no-repeat;
+    background-repeat: no-repeat;
     background-position: 5px;
     padding-left: 40px;
     border-radius: 30px;
-    border:1px solid gray
+    border: 1px solid gray;
 }
 
 .password {
     padding: 5px;
     text-align: center;
 }
- .fafb {
+.fafb {
     color: #0a0b0c;
-    
- }
+}
 
- .twitter {
-    color: black
- }
+.twitter {
+    color: black;
+}
 
 .google {
-    color:black;
-} 
+    color: black;
+}
 
 .linkedin {
     color: black;
@@ -77,13 +73,12 @@ input[type="password"] {
  */
 
 button[type="sign-up"] {
-    background-color:  #0850F8;
+    background-color: #0850f8;
     color: white;
     border-radius: 30px;
-    border:none;
+    border: none;
     padding: 5px;
 }
-
 
 /* 
 *Start Hero Styling
@@ -125,10 +120,6 @@ button[type="sign-up"] {
     
 }
 
-.hero-image {
-    background-color: #0850F8;
-}
-
 @media (max-width: 1000px) {
     .hero {
         flex-direction: column;
@@ -136,9 +127,9 @@ button[type="sign-up"] {
 }
 
 @media (max-width: 1000px) {
-   .hero-image {
-    justify-items: center;
-   }
+    .hero-image {
+        justify-items: center;
+    }
 }
 .container {
     max-width: 100%;
