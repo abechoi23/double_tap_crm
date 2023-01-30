@@ -243,6 +243,93 @@ span {
 * End Features Styling
 */
 
+.grid-container1{
+    max-width: 100%;
+    margin: 40px auto;
+    margin-left: 80px;
+    margin-bottom: 80px;
+    padding: 0px 200px 0px 350px;
+    display: flex;
+    gap: 0px;
+    height: 400px;
+}
+
+.grid-container2{
+    max-width: 100%;
+    margin: 40px auto;
+    margin-left: 80px;
+    margin-bottom: 80px;
+    padding: 0px 200px 0px 350px;
+    display: flex;
+    gap: 0px;
+    height: 400px;
+}
+
+.card{
+    display: flex; 
+    background: #0850f8;
+    border: 1px solid grey;
+    border-radius: 25px;
+    max-width: 100%;
+    width: 1000px;
+    margin-right: 40px;
+}
+.img-1{
+    background-color: white;
+    border-radius: 25px 0px 0px 25px;
+    padding-top: 100px;
+
+}
+
+.texting{
+    max-width: 500px;
+    margin: 20px auto 73px;
+}
+.grid-item-text{
+    font-size: 17px;
+    line-height: 27px;
+    font-weight: 600;
+    text-align: center;
+    color: black;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+/*
+ End 1st container styling
+*/
+/*
+Begin 2nd container styling
+*/
+.img-2 {
+    background-color: white;
+    border-radius: 25px 0px 0px 25px;
+    padding-top: 100px;
+    padding-right: 0px;
+}
+
+.img-2 img{
+    width: 1000px;
+    height: 200px;
+}
+.right-of-card{
+    background-color: #0850f8;
+    color: white;
+    padding-left: 50px;
+    border-radius: 25px;
+    padding-top: 20px;
+    padding-right: 50px;
+    text-align: center;
+}
+.card h2{
+    padding-bottom: 40px;
+    max-width: 500px;
+    padding-left: 30px;
+    text-align: center;
+}
+
+/*
+End 2nd container styling
+*/
 /* 
 * Start Footer Styling
 */
