@@ -1,12 +1,15 @@
 /* 
 *forms
  */
-form {
+ * {
+    box-sizing: border-box;
+}
+
+ form {
     text-align: center;
     margin-top: 0px;
 }
-
-/* 
+/*
 *Style inputs
  */
 input[type="username"] {
@@ -24,9 +27,8 @@ input[type="username"] {
     margin-bottom: 0px;
     margin-top: 0px;
 }
-
 input[type="email"] {
-    background-image: url(./images_signup/🦆\ icon\ _Envelope_.png);
+    background-image: url(./images_signup/:duck:\ icon\ _Envelope_.png);
     background-size: 18px;
     background-repeat: no-repeat;
     background-position: 5px;
@@ -38,7 +40,6 @@ input[type="email"] {
     padding: 5px;
     text-align: center;
 }
-
 input[type="password"] {
     background-image: url(./images_signup/Vector.png);
     background-size: 13px;
@@ -48,53 +49,52 @@ input[type="password"] {
     border-radius: 30px;
     border: 1px solid gray;
 }
-
 .password {
     padding: 5px;
     text-align: center;
 }
 .fafb {
-    color: #0a0b0c;
+    color: #0A0B0C;
 }
-
 .twitter {
     color: black;
 }
-
 .google {
     color: black;
 }
-
 .linkedin {
     color: black;
 }
-/* 
+/*
 *Style button
  */
-
 button[type="sign-up"] {
-    background-color: #0850f8;
+    background-color: #0850F8;
     color: white;
     border-radius: 30px;
     border: none;
     padding: 5px;
 }
-
-/* 
+button[class="buttonsign"] {
+    background-color: #0850F8;
+    color: white;
+    border-radius: 30px;
+    border: none;
+    padding: 5px;
+    text-align: center;
+}
+/*
 *Start Hero Styling
  */
-
 .hero {
     max-width: 100%;
     margin: 0px auto 0;
-
     border-radius: 25px;
     padding: 0px 0px 0px 0px;
     display: flex;
     align-items: center;
     gap: 98px;
 }
-
 .hero h1 {
     font-size: 50px;
     font-weight: 700;
@@ -102,31 +102,27 @@ button[type="sign-up"] {
     color: #101113;
     text-align: center;
 }
-
 .hero p {
     font-size: 21px;
     font-weight: 500;
     line-height: 32px;
-    color: #0a0b0c;
+    color: #0A0B0C;
     margin-bottom: 50px;
     margin-top: 0;
+    align-items: center;
 }
-
 .hero-image img {
     width: 77%;
     padding: 0px 0px 0px 0px;
     margin: 0px auto;
     border-radius: 25px;
-    
 }
-
-@media (max-width: 1000px) {
+@media (max-width: 100%) {
     .hero {
         flex-direction: column;
     }
 }
-
-@media (max-width: 1000px) {
+@media (max-width: 100%) {
     .hero-image {
         justify-items: center;
     }
@@ -136,6 +132,6 @@ button[type="sign-up"] {
     height: 100px;
     text-align: left;
 }
-/* 
+/*
 * End Hero Styling
 */
