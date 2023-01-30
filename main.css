@@ -306,3 +306,65 @@ span {
 /* 
 * End Features Styling
 */
+
+/* 
+ Begin 1st container styling
+*/
+.grid-item-1{
+    text-align: center;
+
+}
+.grid-item-1 p{
+}
+.card{
+    display: flex;
+    align-items:center;
+    background: #0850f8;
+    border: 1px solid grey;
+    border-radius: 25px;
+    max-height: 400px;
+
+}
+.img-1{
+    background-color: white;
+    border-radius: 25px 0px 0px 25px;
+}
+.grid-container1{
+    padding-bottom: 50px;
+}
+.grid-item-text{
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+/* 
+ End 1st container styling
+*/
+
+
+/* 
+Begin 2nd container styling
+*/
+.img-2 img{
+    background-color: white;
+    padding-left: 80px;
+    max-height: 400px;
+    border-radius: 25px 0px 0px 25px;
+}
+.right-of-card{
+    width: 100%;
+    color: white;
+    text-align: center;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.card h2{
+    padding-bottom: 40px;
+    max-width: 500px;
+    padding-left: 30px;
+
+}
+
+/* 
+End 2nd container styling
+*/
