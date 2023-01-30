@@ -1,16 +1,9 @@
 Abe - index.html lines: 1 - 82 + main.css lines: 1 - 311
-Abe - works.html lines: 1 - 57 + sign.css lines: 
+Abe - works.html lines: 1 - 62 + sign.css lines: 1 - 243
 Leandro - index.html lines: 82 - 101 + main.css lines: 313 - 370
-<<<<<<< HEAD
-Leandro - works.html lines: 1 - 57 + sign.css lines: 
+Leandro - works.html lines: 63 - 106 + sign.css lines: 246 - 335
 Hoyt - index.html lines: 102 - 159 + main.css lines: 373 - 492
-Hoyt - works.html lines: 1 - 57 + sign.css lines: 
+Hoyt - works.html lines: 107 - 129 + sign.css lines: 337 - 400
 
 Austin - All of sign_in and sign_up pages HTML + CSS
 =======
-Leandro - works.html lines:  + sign.css lines: 
-Hoyt - index.html lines: 102 - 159 + main.css lines: 373 - 492
-Hoyt - works.html lines:  + sign.css lines: 
-
-Austin - All of sign_in and sign_up pages HTML + CSS
->>>>>>> 09f4e050bf1edb36dff04e7dc71bc2d468be45d0
