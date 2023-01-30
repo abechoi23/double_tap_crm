@@ -243,6 +243,41 @@ span {
 * End Features Styling
 */
 
+.card{
+    display: flex; 
+    background: #0850f8;
+    border: 1px solid grey;
+    border-radius: 25px;
+}
+.img-1{
+    background-color: white;
+    border-radius: 25px 0px 0px 25px;
+}
+.right-of-card{
+    background-color: #0850f8;
+    color: white;
+    padding-left: 30px;
+
+}
+.right-of-card ul{
+    font-size: 12px;
+    padding-left: 2px;
+    color: rgba(255, 255, 255, 0.815);
+}
+.btn-white{
+    padding: 8px 8px 8px 40px;
+    font-size: 12px;
+    line-height: 50px;
+    font-weight: 800;
+    width: 200px;
+    color: rgba(255, 255, 255, 0.781);
+    border-radius: 5px;
+    border: 2px solid whitesmoke;
+    text-decoration: none;
+}
+/*
+=======
+
 /* 
 * Start Footer Styling
 */
@@ -311,3 +346,4 @@ footer a {
 /* 
 * End Footer Styling
 */
+
