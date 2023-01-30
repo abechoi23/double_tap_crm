@@ -49,21 +49,39 @@ input[type="password"] {
     border-radius: 30px;
     border: 1px solid gray;
 }
-.password {
-    padding: 5px;
-    text-align: center;
-}
 .fafb {
-    color: #0A0B0C;
-}
-.twitter {
+    color: #0a0b0c;
+    font-size: 40px;
+    margin-right: 20px;
+    border: 1px solid black;
+    border-radius: 50px;
+    padding:10px 20px 10px 20px;
+ }
+
+ .twitter {
     color: black;
-}
+    font-size: 40px;
+    margin-right: 20px;
+    border: 1px solid black;
+    border-radius: 50px;
+    padding:10px 13px 10px 13px;
+ }
+
 .google {
-    color: black;
-}
+    color:black;
+    font-size: 40px;
+    margin-right: 20px;
+    border: 1px solid black;
+    border-radius: 50px;
+    padding:10px 15px 10px 15px;
+} 
+
 .linkedin {
     color: black;
+    font-size: 40px;
+    border: 1px solid black;
+    border-radius: 50px;
+    padding:10px 15px 10px 15px;
 }
 /*
 *Style button

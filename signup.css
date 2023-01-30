@@ -17,7 +17,9 @@ input[type="username"] {
     padding-left: 40px;
     border-radius: 30px;
     border:1px solid gray;
-    
+    height: 50px;
+    width: 300px;
+    margin-bottom: 40px;
 }
 .username {
     padding: 5px;
@@ -34,7 +36,10 @@ input[type="email"] {
     background-position: 5px;
     padding-left: 40px;
     border-radius: 30px;
-    border:1px solid gray
+    border:1px solid gray;
+    height: 50px;
+    width: 300px;
+    margin-bottom: 40px;
 }
 .email {
     padding: 5px;
@@ -49,7 +54,10 @@ input[type="password"] {
     background-position: 5px;
     padding-left: 40px;
     border-radius: 30px;
-    border:1px solid gray
+    border:1px solid gray;
+    height: 50px;
+    width: 300px;
+    margin-bottom: 40px;
 }
 
 .password {
@@ -58,19 +66,37 @@ input[type="password"] {
 }
  .fafb {
     color: #0a0b0c;
-    
+    font-size: 40px;
+    margin-right: 20px;
+    border: 1px solid black;
+    border-radius: 50px;
+    padding:10px 20px 10px 20px;
  }
 
  .twitter {
-    color: black
+    color: black;
+    font-size: 40px;
+    margin-right: 20px;
+    border: 1px solid black;
+    border-radius: 50px;
+    padding:10px 13px 10px 13px;
  }
 
 .google {
     color:black;
+    font-size: 40px;
+    margin-right: 20px;
+    border: 1px solid black;
+    border-radius: 50px;
+    padding:10px 15px 10px 15px;
 } 
 
 .linkedin {
     color: black;
+    font-size: 40px;
+    border: 1px solid black;
+    border-radius: 50px;
+    padding:10px 15px 10px 15px;
 }
 /* 
 *Style button
@@ -82,6 +108,9 @@ button[type="sign-up"] {
     border-radius: 30px;
     border:none;
     padding: 5px;
+    height: 40px;
+    width: 150px;
+    margin-bottom: 20px;
 }
 
 
@@ -92,7 +121,7 @@ button[type="sign-up"] {
 .hero {
     max-width: 100%;
     margin: 0px auto 0;
-
+    margin-left: 100px;
     border-radius: 25px;
     padding: 0px 0px 0px 0px;
     display: flex;
@@ -119,8 +148,8 @@ button[type="sign-up"] {
 
 .hero-image img {
     width: 77%;
-    padding: 0px 0px 0px 0px;
-    margin: 0px auto;
+    padding: 200px 0px 0px 0px;
+    margin: auto;
     border-radius: 25px;
 }
 
@@ -140,6 +169,7 @@ button[type="sign-up"] {
     height: 100px;
     text-align: left;
 }
+
 /* 
 * End Hero Styling
 */
